@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: red;
+}
+
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    color: white; /* Adicionado para garantir que o texto seja visível em fundo preto */
+}
+
+header {
+    position: fixed; /* Alterado para "fixed" para fixar o cabeçalho no topo da página */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px; /* Reduzido o padding para um layout mais compacto */
+    z-index: 10;
+    background-color: rgb(255, 66, 3);
+}
+
+.banner .content img {
+    width: 100%;
+}
+
+header img {
+    width: 100px; /* Reduzido o tamanho da imagem para melhorar o layout */
+    height: auto; /* Adicionado para manter a proporção da imagem */
+    margin-top: 5px; /* Ajustado o espaçamento do topo */
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav li {
+    list-style: none; /* Removido o estilo de lista */
+    display: inline-block; /* Alterado para exibir como bloco para melhor layout */
+    margin-right: 19px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav li:hover a {
+    color: rgb(233, 240, 28);
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 20px; /* Ajustado para alinhar com o conteúdo */
+}
+
+p {
+    margin-left: 20px; /* Ajustado para alinhar com o conteúdo */
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 1.5; /* Adicionado para melhorar a legibilidade */
+}
+
+footer {
+    height: 190px;
+    width: 100%;
+    background-color: black;
+    color: white; /* Adicionado para garantir que o texto seja visível em fundo preto */
+}
